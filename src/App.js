@@ -20,12 +20,14 @@ import Input from "./components/3-7.HOC/Input";
 import Memo from "./components/3-8.Memoization/Memo";
 import Example from "./components/3-11.Portal/Example";
 import Component from "./components/3-14.PropTypes/Component";
+// import Example from "./components/3-10.Context/Example";
 
 function App() {
   return (
     <div className="App">
       <Component />
       {/* <Example /> */}
+      <Example />
       {/* <Memo /> */}
       {/* <Input />
       <Button /> */}
