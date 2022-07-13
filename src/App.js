@@ -22,10 +22,12 @@ import Example from "./components/3-11.Portal/Example";
 import Component from "./components/3-14.PropTypes/Component";
 // import Example from "./components/3-10.Context/Example";
 import MomentExample from "./components/Moment/MomentExample";
+import DayjsExample from "./components/Dayjs/DayjsExample";
 
 function App() {
   return (
     <div className="App">
+      <DayjsExample />
       <MomentExample />
       {/* <Component /> */}
       {/* <Example /> */}
