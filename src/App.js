@@ -21,13 +21,15 @@ import Memo from "./components/3-8.Memoization/Memo";
 import Example from "./components/3-11.Portal/Example";
 import Component from "./components/3-14.PropTypes/Component";
 // import Example from "./components/3-10.Context/Example";
+import MomentExample from "./components/Moment/MomentExample";
 
 function App() {
   return (
     <div className="App">
-      <Component />
+      <MomentExample />
+      {/* <Component /> */}
       {/* <Example /> */}
-      <Example />
+      {/* <Example /> */}
       {/* <Memo /> */}
       {/* <Input />
       <Button /> */}
