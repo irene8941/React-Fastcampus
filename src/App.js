@@ -24,13 +24,15 @@ import Component from "./components/3-14.PropTypes/Component";
 import MomentExample from "./components/Moment/MomentExample";
 import DayjsExample from "./components/Dayjs/DayjsExample";
 import DateFnsExample from "./components/DateFns/DateFnsExample";
+import StyledComponentsExample from "./components/StyledComponents/StyledComponentsExample";
 
 function App() {
   return (
     <div className="App">
-      <DateFnsExample />
+      <StyledComponentsExample />
+      {/* <DateFnsExample />
       <DayjsExample />
-      <MomentExample />
+      <MomentExample /> */}
       {/* <Component /> */}
       {/* <Example /> */}
       {/* <Example /> */}
