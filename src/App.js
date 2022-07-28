@@ -18,7 +18,7 @@ import ThankyouDialog from "./components/3-6.Composition2/ThankyouDialog";
 import Button from "./components/3-7.HOC/Button";
 import Input from "./components/3-7.HOC/Input";
 import Memo from "./components/3-8.Memoization/Memo";
-import Example from "./components/3-11.Portal/Example";
+// import Example from "./components/3-11.Portal/Example";
 import Component from "./components/3-14.PropTypes/Component";
 // import Example from "./components/3-10.Context/Example";
 import MomentExample from "./components/Moment/MomentExample";
@@ -26,11 +26,13 @@ import DayjsExample from "./components/Dayjs/DayjsExample";
 import DateFnsExample from "./components/DateFns/DateFnsExample";
 import StyledComponentsExample from "./components/StyledComponents/StyledComponentsExample";
 import EmotionExample from "./components/EmotionExample/EmotionExample";
+import Example from "./components/SassExample/Example";
 
 function App() {
   return (
     <div className="App">
-      <EmotionExample />
+      <Example />
+      {/* <EmotionExample /> */}
       {/* <StyledComponentsExample /> */}
       {/* <DateFnsExample />
       <DayjsExample />
